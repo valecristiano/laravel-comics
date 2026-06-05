@@ -9,13 +9,13 @@
 </head>
 <body>
     <main>
-        <section class="container">
+        <section>
             @include("partials.header")
         </section>
-        <section class="container">
+        <section>
                 @yield('content')
         </section>
-        <section class="container">
+        <section>
             @include("partials.footer")
         </section>
     </main>
