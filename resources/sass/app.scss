@@ -1,8 +1,27 @@
 // Fonts
-@import url('https://fonts.bunny.net/css?family=Nunito');
+@import url("https://fonts.bunny.net/css?family=Nunito");
 
 // Variables
-@import 'variables';
+@import "variables";
 
 // Bootstrap
-@import 'bootstrap/scss/bootstrap';
+@import "bootstrap/scss/bootstrap";
+
+.comic-img-main {
+    width: 80%;
+    aspect-ratio: 8/13;
+    overflow: hidden;
+}
+
+.comic-img-main img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+    display: block;
+}
+
+.comic-img-figure figcaption {
+    margin-top: 5px;
+    font-size: 12px;
+}
