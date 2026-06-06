@@ -1,6 +1,3 @@
-@php 
-$links = config('footerLinks');
-@endphp
 
  <footer>
       <section>

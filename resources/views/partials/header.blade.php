@@ -1,6 +1,3 @@
-@php 
-$links = config('headerLinks');
-@endphp
 
 <header>
       <nav class="navbar navbar-expand-lg bg-white">

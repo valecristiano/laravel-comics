@@ -3,5 +3,9 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('home');
+    $comics = config('cards');
+
+    $servicesLinks = config('servicesLinks');
+
+    return view('home', compact('comics', 'servicesLinks'));
 });

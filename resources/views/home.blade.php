@@ -2,12 +2,6 @@
 
 @section('title', 'Homepage')
 
-@php 
-$comics = config('cards');
-$servicesLinks = config('servicesLinks');
-@endphp
-
-
 @section("content")
 <!-- Jumbotron -->
 <section>
